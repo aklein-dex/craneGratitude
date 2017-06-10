@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gratitude to Cranes</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_submit_data">SubmitData</string>
+</resources>

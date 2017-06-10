@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="crane.com.cranegratitude.MainActivity"
+    android:columnCount="2"
+    android:layout_margin="10px">
+
+    <TextView
+        android:text="Latitude"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/inputLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:text="Longitude"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/inputLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:text="Resting"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <ToggleButton
+        android:id="@+id/toggleResting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resting" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        />
+
+    <TextView
+        android:layout_marginTop="150px"
+        android:id="@+id/thanks"
+        android:text="Thank you for your participation"
+        android:layout_columnSpan="2"
+        android:visibility="invisible"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:visibility="invisible"
+        android:layout_columnSpan="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Back"
+        />
+</GridLayout>
